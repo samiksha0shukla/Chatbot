@@ -19,16 +19,16 @@ Follow these steps to set up and run the chatbot:
     * requirements.txt
 
 ### 4. Install Required Packages:
- * Install all required packages by running the following command:
-   pip install -r requirements.txt
+ * Install all required packages by running the following command:<br>
+   **pip install -r requirements.txt**
    
 ### 5. Configure the Data Path:
  * Copy the path of **Corpus.pdf** and paste it into the **DATA_PATH** variable on line 11 of      the **populated_database.py** file.
- * Run **populated_database.py** to populate the database
+ * Run **populated_database.py** to populate the database.
 
 ### 6. Run the Streamlit Application:
- * Open a terminal and run the following command to start the Streamlit chatbot interface:
-   streamlit run query_ui.py
+ * Open a terminal and run the following command to start the Streamlit chatbot interface:<br>
+   **streamlit run query_ui.py**
 
 ### 7. Interact with the Chatbot:
  * A web browser will open displaying the Streamlit chatbot interface.
