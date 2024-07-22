@@ -1,0 +1,8 @@
+pypdf
+chromadb
+pytest
+boto3
+langchain
+streamlit
+streamlit-chat
+
