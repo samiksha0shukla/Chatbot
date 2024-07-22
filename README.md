@@ -32,6 +32,7 @@ Follow these steps to set up and run the chatbot:
    **ollama**
  * Download Llama 3: Pull the Llama 3 model by running:<br>
    **ollama pull llama3**
+ * Serve the model: **ollama serve**
    
 ### 6. Configure the Data Path:
  * Copy the path of **Corpus.pdf** and paste it into the **DATA_PATH** variable on line 11 of      the **populated_database.py** file.
