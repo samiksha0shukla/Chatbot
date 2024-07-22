@@ -1,7 +1,7 @@
 # Chatbot
 Chatbot - GenAI  
 
-This chatbot uses advanced technologies to answer questions based on a PDF document. It employs **Retrieval-Augmented Generation (RAG)** to combine information retrieval with text generation, enhancing responses. The chatbot utilizes the **Llama 3** (an completely free, open source LLM model) from **Ollama** for understanding and generating human-like text. **Langchain** integrates various data sources for document processing, while **Chroma** stores and retrieves document chunks efficiently. The user-friendly interface is created with **Streamlit**, allowing seamless interaction. Together, these technologies enable the chatbot to provide accurate, context-aware answers.<br>
+This chatbot uses advanced technologies to answer questions based on a PDF document. It employs **Retrieval-Augmented Generation (RAG)** to combine information retrieval with text generation, enhancing responses. The chatbot utilizes the **Llama 3** (an completely free and open source LLM model) from **Ollama** for understanding and generating human-like text. **Langchain** integrates various data sources for document processing, while **Chroma** stores and retrieves document chunks efficiently. The user-friendly interface is created with **Streamlit**, allowing seamless interaction. Together, these technologies enable the chatbot to provide accurate, context-aware answers.<br>
 
 ## How to Run the Chatbot Code  
 Follow these steps to set up and run the chatbot:  
