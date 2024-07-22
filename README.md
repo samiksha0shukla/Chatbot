@@ -24,16 +24,24 @@ Follow these steps to set up and run the chatbot:
 ### 4. Install Required Packages:
  * Install all required packages by running the following command:<br>
    **pip install -r requirements.txt**
+
+### 5. Run Llama 3 locally:  
+ * Download Ollama: Get the Ollama software from: https://ollama.com/download
+ * Open PowerShell: Launch PowerShell on your machine.
+ * Run Ollama: Execute the following command to start Ollama:<br>
+   **ollama**
+ * Download Llama 3: Pull the Llama 3 model by running:<br>
+   **ollama pull llama3**
    
-### 5. Configure the Data Path:
+### 6. Configure the Data Path:
  * Copy the path of **Corpus.pdf** and paste it into the **DATA_PATH** variable on line 11 of      the **populated_database.py** file.
  * Run **populated_database.py** to populate the database.
 
-### 6. Run the Streamlit Application:
+### 7. Run the Streamlit Application:
  * Open a terminal and run the following command to start the Streamlit chatbot interface:<br>
    **streamlit run query_ui.py**
 
-### 7. Interact with the Chatbot:
+### 8. Interact with the Chatbot:
  * A web browser will open displaying the Streamlit chatbot interface.
  * Type your question in the sidebar of the interface and hit Enter. If the question is within     the context of the corpus, you will get an answer. Otherwise, you will see "please contact      the business" as the reply.
  
