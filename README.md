@@ -9,7 +9,7 @@ Follow these steps to set up and run the chatbot:
 ### 1. Create a New Folder:  
  * Open VS Code and create a new folder for the project.
 
-### 2. Open VS Code and create a new folder for the project.  
+### 2. Create and activate a virtual environment.  
  * Within the new folder, create and activate a virtual environment.
 
 ### 3. Upload Project Files:
